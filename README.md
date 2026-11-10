@@ -99,7 +99,7 @@ The label maps of the 12-week-old atlas extend slightly beyond the thresholded t
 
 ## From the paper
 
-The atlases, the image processing pipelines and normative brain measures for both ages are described in [Fil et al. (2021)](https://doi.org/10.1016/j.jneumeth.2021.109107). The figures below are reproduced without modification from that article (© 2021 The Author(s), published by Elsevier B.V. under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)). They show atlas version 2.0, with 26 regions; version 2.1 adds the nucleus accumbens, putamen, substantia nigra and third ventricle. The short captions here are descriptions of each figure, so please see the article for the full captions.
+The atlases, the image processing pipelines and normative brain measures for both ages are described in [Fil et al. (2021)](https://doi.org/10.1016/j.jneumeth.2021.109107). The figures below are reproduced without modification from that article (© 2021 The Author(s), published by Elsevier B.V. under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)). They show atlas version 2.0, with 26 regions; version 2.1 adds the nucleus accumbens, substantia nigra and third ventricle. The short captions here are descriptions of each figure, so please see the article for the full captions.
 
 <img src="docs/figures/paper/fil2021_fig1.jpg" alt="Midsagittal MRI of the pig head at 4 and 12 weeks of age with a table of brain volume, body weight, head height and face length" width="100%">
 
@@ -241,7 +241,7 @@ shasum -a 256 -c ../ATLAS_SHA256SUMS
 
 | Version | Released | Ages | Regions | Notes |
 |---|---|---|---|---|
-| **2.1** | 2023-07-21 | 4 wk, 12 wk | 29 | Current release, issued after the 2021 article. Adds the nucleus accumbens, putamen, substantia nigra and third ventricle; corrects inconsistent values and orientation errors across the three ROI thresholds; introduces the priority list for the combined maps; makes the not-brain map binary; adds an FA template for both ages; thresholds the templates (200 at 4 weeks, 600 at 12 weeks) and crops and centers the 12-week template and masks. |
+| **2.1** | 2023-07-21 | 4 wk, 12 wk | 29 | Current release, issued after the 2021 article. Adds the nucleus accumbens, substantia nigra and third ventricle; corrects inconsistent values and orientation errors across the three ROI thresholds; introduces the priority list for the combined maps; makes the not-brain map binary; adds a 12-week FA template and updates the 4-week one; thresholds the templates (200 at 4 weeks, 600 at 12 weeks) and crops and centers the 12-week template and masks. |
 | [2.0](https://github.com/Nutrition-Health-Neuroscience-DilgerLab/pig-brain-atlas-v2.0) | 2021-04-01 | 4 wk, 12 wk | 26 | Updated 4-week atlas and the first 12-week atlas, described in Fil et al. (2021). |
 | [1.2](https://github.com/Nutrition-Health-Neuroscience-DilgerLab/pig-brain-atlas-v1.2) | 2016-12-12 | 4 wk | 19 | Original 4-week atlas (Conrad et al., 2014) with smoothed tissue probability maps. Released under CC0. |
 
